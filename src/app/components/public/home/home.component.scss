@@ -8,7 +8,7 @@
     left: 0px;
     min-height: 100vh;
     max-height: 100vh;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .card {
@@ -32,8 +32,15 @@ h1 {
     font-weight: 700;
 }
 
+@media (max-width: 991px) {
+    .card {
+        top: 34vh;
+    }
+}
+
 @media (max-width: 576px) {
     .card {
         max-width: 350px;
+        top: 26vh;
     }
 }
