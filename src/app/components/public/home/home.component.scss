@@ -1,0 +1,39 @@
+.search-bg {
+    background: url("../../../../assets/img/search-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow: auto;
+}
+
+.card {
+    padding: 30px;
+    position: relative;
+    top: 49vh;
+}
+
+form {
+    background-color: #f4f4f4;
+    border-radius: 10px !important;
+}
+
+input,
+select {
+    color: #6c757d;
+    opacity: 1;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+@media (max-width: 576px) {
+    .card {
+        max-width: 350px;
+    }
+}

@@ -1,0 +1,27 @@
+$white: #ffffff;
+$dark: #000000;
+$gray: #67696b;
+$primary: #495C83;
+$secondary: #566480;
+$third: #B2C8DF;
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.fontAwesome {
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+}
+
+.card {
+    border-radius: 10px !important;
+    border: none;
+}
+
+.btn-primary {
+    background: $primary !important;
+    border-color: $primary !important;
+}
+
+.btn-primary:hover {
+    background: $secondary !important;
+}
