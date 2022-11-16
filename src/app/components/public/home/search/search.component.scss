@@ -1,0 +1,160 @@
+@import "../../../../../styles.scss";
+.search-bg {
+    background: url("../../../../../assets/img/search-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.card {
+    padding: 30px;
+    position: relative;
+    top: 49vh;
+}
+
+form {
+    background-color: #f4f4f4;
+    border-radius: 10px !important;
+}
+
+input,
+select {
+    color: #6c757d;
+    opacity: 1;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+.dropping-texts {
+    display: inline-block;
+    width: 140px;
+    height: 36px;
+    margin: 2px;
+}
+
+.dropping-texts>div {
+    font-size: 0px;
+    position: absolute;
+    font-weight: 700;
+    color: $secondary;
+}
+
+.dropping-texts>div:nth-child(1) {
+    animation: roll 5s linear infinite 0s;
+}
+
+.dropping-texts>div:nth-child(2) {
+    animation: roll 5s linear infinite 1s;
+}
+
+.dropping-texts>div:nth-child(3) {
+    animation: roll 5s linear infinite 2s;
+}
+
+.dropping-texts>div:nth-child(4) {
+    animation: roll 5s linear infinite 3s;
+}
+
+@keyframes roll {
+    0% {
+        font-size: 0px;
+        opacity: 0;
+        margin-left: -30px;
+        margin-top: 0px;
+        transform: rotate(-25deg);
+    }
+    3% {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+    5% {
+        font-size: inherit;
+        opacity: 1;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    20% {
+        font-size: inherit;
+        opacity: 1;
+        margin-left: 0px;
+        margin-top: 0px;
+        transform: rotate(0deg);
+    }
+    27% {
+        font-size: 0px;
+        opacity: 0.5;
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+    100% {
+        font-size: 0px;
+        opacity: 0;
+        margin-left: -30px;
+        margin-top: 0px;
+        transform: rotate(15deg);
+    }
+}
+
+@media (max-width: 991px) {
+    .card {
+        top: 34vh;
+    }
+    .dropping-texts {
+        margin: 0px;
+    }
+}
+
+@media (max-width: 820px) {
+    .dropping-texts {
+        margin: -2px;
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 732px) {
+    .dropping-texts {
+        margin: -4px;
+    }
+}
+
+@media (max-width: 632px) {
+    .dropping-texts {
+        margin: -6px;
+    }
+}
+
+@media (max-width: 532px) {
+    .dropping-texts {
+        margin: -8px;
+    }
+}
+
+@media (max-width: 432px) {
+    .dropping-texts {
+        margin: -9px;
+    }
+}
+
+@media (max-width: 332px) {
+    .dropping-texts {
+        margin: -12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        max-width: 330px;
+        top: 26vh;
+    }
+    .dropping-texts {
+        width: 120px;
+    }
+}
