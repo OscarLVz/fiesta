@@ -4,7 +4,7 @@
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
-        "build": "ng build --base-href=https://oscarlvz.github.io/fiesta/",
+        "build": "ng build --base-href=https://oscarlvz.github.io/fiesta/dist/fiesta/",
         "watch": "ng build --watch --configuration development",
         "test": "ng test"
     },
