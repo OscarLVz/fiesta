@@ -1,3 +1,12 @@
+@import "../../../../../styles.scss";
+.title {
+    color: $gray;
+}
+
+h2 {
+    font-weight: 800;
+}
+
 .card {
     img {
         opacity: 0.6;
@@ -8,9 +17,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        h3 {
+        h2 {
             font-weight: 800;
-            font-size: 40px;
             text-align: center;
         }
     }
