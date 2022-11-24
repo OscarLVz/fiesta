@@ -25,3 +25,14 @@ $third: #B2C8DF;
 .btn-primary:hover {
     background: $secondary !important;
 }
+
+.div-bar {
+    position: absolute;
+    width: 45px;
+    height: 4px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: $primary;
+}
