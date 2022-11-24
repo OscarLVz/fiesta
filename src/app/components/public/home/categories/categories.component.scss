@@ -22,3 +22,10 @@ h2 {
         }
     }
 }
+
+.card:hover {
+    cursor: pointer;
+    h2 {
+        color: #cfcfcf;
+    }
+}
