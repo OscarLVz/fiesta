@@ -6,3 +6,20 @@
 h2 {
     font-weight: 800;
 }
+
+.card-body {
+    h5 {
+        color: $primary;
+    }
+    .badge {
+        color: $primary;
+    }
+    p {
+        text-align: justify;
+    }
+    a {
+        font-size: 1.6rem;
+        margin-right: 10px;
+        color: $secondary;
+    }
+}
