@@ -9,7 +9,8 @@ h2 {
 
 .card-body {
     h5 {
-        color: $primary;
+        color: $secondary;
+        font-weight: 600;
     }
     .badge {
         color: $primary;
@@ -18,8 +19,8 @@ h2 {
         text-align: justify;
     }
     a {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         margin-right: 10px;
-        color: $secondary;
+        color: $gray;
     }
 }
