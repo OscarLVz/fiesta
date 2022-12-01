@@ -8,6 +8,7 @@ import { SearchComponent } from './components/public/home/search/search.componen
 import { NavbarComponent } from './components/public/navbar/navbar.component';
 import { CategoriesComponent } from './components/public/home/categories/categories.component';
 import { TopServicesComponent } from './components/public/home/top-services/top-services.component';
+import { FooterComponent } from './components/public/home/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TopServicesComponent } from './components/public/home/top-services/top-
     SearchComponent,
     NavbarComponent,
     CategoriesComponent,
-    TopServicesComponent
+    TopServicesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
