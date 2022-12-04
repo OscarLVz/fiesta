@@ -9,6 +9,7 @@ import { NavbarComponent } from './components/public/navbar/navbar.component';
 import { CategoriesComponent } from './components/public/home/categories/categories.component';
 import { TopServicesComponent } from './components/public/home/top-services/top-services.component';
 import { FooterComponent } from './components/public/home/footer/footer.component';
+import { NavMenuComponent } from './components/public/navbar/nav-menu/nav-menu.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FooterComponent } from './components/public/home/footer/footer.componen
     NavbarComponent,
     CategoriesComponent,
     TopServicesComponent,
-    FooterComponent
+    FooterComponent,
+    NavMenuComponent
   ],
   imports: [
     BrowserModule,
