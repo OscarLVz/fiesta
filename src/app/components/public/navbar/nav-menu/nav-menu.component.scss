@@ -2,3 +2,69 @@
 .bar {
     background: $third;
 }
+
+.menu-footer {
+    position: relative;
+    top: 100%;
+    transform: translateY(-150%);
+    width: 100%;
+}
+
+.fontAwesome {
+    font-style: normal;
+    color: $gray;
+}
+
+.copyright {
+    color: $gray;
+}
+
+.social-list {
+    display: flex;
+    align-items: center;
+}
+
+.social-list li {
+    margin-right: 13px;
+}
+
+.social-list li:last-child {
+    margin-right: 0;
+}
+
+.social-list a {
+    display: block;
+    text-align: center;
+    color: $gray;
+    font-size: 18px;
+}
+
+.social-list a:hover {
+    color: $primary;
+}
+
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: $gray;
+    text-decoration: none;
+    transition: .25s ease-in;
+    line-height: 2;
+}
+
+.footer-item-logo .logo-footer {
+    max-width: 50px;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #afafaf;
+}
