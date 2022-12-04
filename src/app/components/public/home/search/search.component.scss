@@ -1,6 +1,6 @@
 @import "../../../../../styles.scss";
 .search-bg {
-    background: url("../../../../../assets/img/search-bg2.jpg");
+    background: url("../../../../../assets/img/search/search-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     top: 0px;
@@ -19,7 +19,7 @@
 }
 
 form {
-    background-color: #f4f4f4;
+    background-color: $gray-light;
     border-radius: 10px !important;
 }
 
