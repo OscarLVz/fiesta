@@ -1,0 +1,32 @@
+@import "../../../../styles.scss";
+.title {
+    color: $gray;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+.card {
+    border: none;
+    min-height: 150px;
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    .card-img-overlay {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h2 {
+            font-weight: 800;
+            text-align: center;
+        }
+    }
+}
+
+.card:hover {
+    cursor: pointer;
+    h2 {
+        color: #cfcfcf;
+    }
+}
