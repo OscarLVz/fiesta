@@ -7,20 +7,16 @@ h2 {
     font-weight: 800;
 }
 
+.group {
+    border-top: 3px solid $secondary;
+}
+
 .card {
-    border: none;
     min-height: 150px;
-    background-size: 100% auto;
-    background-position: center top;
-    background-repeat: no-repeat;
     .card-img-overlay {
         display: flex;
         align-items: center;
         justify-content: center;
-        h2 {
-            font-weight: 800;
-            text-align: center;
-        }
     }
 }
 
