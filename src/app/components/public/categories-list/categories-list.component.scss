@@ -8,7 +8,7 @@ h2 {
 }
 
 .card {
-    min-height: 150px;
+    min-height: 130px;
     .card-img-overlay {
         display: flex;
         align-items: center;
@@ -16,8 +16,9 @@ h2 {
         h3 {
             color: $primary;
         }
-        h2 {
-            font-size: 2.5vw;
+        h2,
+        h3 {
+            font-size: 30px;
         }
     }
 }
@@ -26,5 +27,39 @@ h2 {
     cursor: pointer;
     h2 {
         color: #cfcfcf;
+    }
+}
+
+@media (max-width: 992px) {
+    .card {
+        .card-img-overlay {
+            h2,
+            h3 {
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+@media (max-width: 454px) {
+    .card {
+        .card-img-overlay {
+            h2,
+            h3 {
+                font-size: 23px;
+            }
+        }
+    }
+}
+
+@media (max-width: 390px) {
+    .card {
+        min-height: 100px;
+        .card-img-overlay {
+            h2,
+            h3 {
+                font-size: 19px;
+            }
+        }
     }
 }
