@@ -1,4 +1,25 @@
 @import "../../../../styles.scss";
+.search-bg {
+    background: $gray-light;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    min-height: 40vh;
+    max-height: 40vh;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+}
+
+.data {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 h2 {
     font-weight: 800;
 }
