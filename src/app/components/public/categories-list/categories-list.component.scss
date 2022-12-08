@@ -1,12 +1,14 @@
 @import "../../../../styles.scss";
 .search-bg {
-    background: $gray-light;
+    background: url("../../../../assets/img/categories/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
     top: 0px;
     right: 0px;
     bottom: 0px;
     left: 0px;
-    min-height: 40vh;
-    max-height: 40vh;
+    min-height: 55vh;
     overflow: hidden;
     position: relative;
     padding: 0;
